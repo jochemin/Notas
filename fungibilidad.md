@@ -15,27 +15,26 @@ La conversación viene de la capacidad de marcar bitcoin (tainted coins/monedas 
 
 ### Datos
 
-Bitcoin es seudónimo, es decir, el usuario no utiliza su nombre sino una dirección Bitcoin.
+- Bitcoin es seudónimo, es decir, el usuario no utiliza su nombre sino una dirección Bitcoin.
 
-Todas las transacciones son públicas y se pueden consultar en la blockchain de Bitcoin.
+- Todas las transacciones son públicas y se pueden consultar en la blockchain de Bitcoin.
 
-No se pueden marcar bitcoin ya que no existen, sólo son un apunte en el libro contable que se actualiza continuamente en la cadena de bloques.
+- No se pueden marcar bitcoin ya que no existen, sólo son un apunte en el libro contable que se actualiza continuamente en la cadena de bloques.
 
-Se pueden marcar direcciones y asociarlas a un usuario o servicio. 
+- Se pueden marcar direcciones y asociarlas a un usuario o servicio. 
 
-Se pueden trazar transacciones, tanto hacía adelante como hacía atrás. 
+- Se pueden trazar transacciones, tanto hacía adelante como hacía atrás. 
 
 ### Conclusiones
 
-Bitcoin es parcialmente fungible
+Bitcoin es **parcialmente fungible** no se puede marcar como tal una unidad (satoshi) pero se puede realizar un seguimiento de las transacciones y asociar direcciones Bitcoin. 
 
-
-
+Las direcciones bitcoin no están relacionadas con un usuario a no ser que el propio usuario lo publique o la dirección pertenezca a un servicio que pueda realizar esa asociación.
 
 #### Páginas útiles
 
-Direcciones Bitcoin asociadas con un servicio, url, nombre... -->   https://blockchain.info/tags
-Página para análisis blockchain Bitcoin                       -->   https://oxt.me/
-Dirección Bitcoin de Silk Road                                -->   https://oxt.me/address/1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX
-Explorador de transacciones                                   -->   https://www.blockseer.com
+- Direcciones Bitcoin asociadas con un servicio, url, nombre... -->   https://blockchain.info/tags
+- Página para análisis blockchain Bitcoin                       -->   https://oxt.me/
+- Dirección Bitcoin de Silk Road                                -->   https://oxt.me/address/1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX
+- Explorador de transacciones                                   -->   https://www.blockseer.com
 
