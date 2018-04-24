@@ -1,3 +1,4 @@
-Origen: conversación https://t.me/blockchainespana
+#Origen 
+conversación https://t.me/blockchainespana
 
-Fungible: que se consume por el uso (http://dle.rae.es/?id=IcU6S9F)
+#Fungible: que se consume por el uso (http://dle.rae.es/?id=IcU6S9F)
