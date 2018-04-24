@@ -9,9 +9,9 @@ Dos posiciones en cuanto a la fungibilidad de bitcoin. Una defiende que si la ot
 La conversación viene de la capacidad de marcar bitcoin (tainted coins/monedas marcadas)
 
 ### Definiciones
--Fungible:   que se consume por el uso (http://dle.rae.es/?id=IcU6S9F)
+- Fungible:   que se consume por el uso (http://dle.rae.es/?id=IcU6S9F)
 
--Fungibilidad (bitcoin): todos los bitcoin tienen el mismo valor sin importar quien los tenga o su historia.
+- Fungibilidad (bitcoin): todos los bitcoin tienen el mismo valor sin importar quien los tenga o su historia.
 
 ### Datos
 
