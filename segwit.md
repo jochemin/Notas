@@ -9,6 +9,14 @@ Este documento cuenta la historia de segwit (testigo segregado), desde su concep
 #### Comienzos
 . Segwit fue desarrollado en ["The Elements Project"](https://github.com/ElementsProject/elementsproject.org "The Elements Project") con Pieter Wuille ([@pwuille](https://twitter.com/pwuille "Pieter Wuille")) como investigador principal, su implementación en Bitcoin suponía un hard fork, posteriormente Luke Dashjr ([@LukeDashjr](https://twitter.com/LukeDashjr "Luke Darshjr")) propuso la forma de implementarlo como soft fork y tras esto se preparó el BIP para integrarlo en Bitcoin.
 
+#### ¿Qué es segwit?
+. Segwit es una actualización del protocolo Bitcoin que modifica la estructura de las transacciones, guarda toda la información susceptible de ser maleable a un nuevo campo "witness data". El id de la transacción se calcula sin contar con este campo por lo que posteriormente no se puede modificar.
+
+<p align="center">
+  <img src="img_segwit/transaction.png?raw=true" alt="Transacción Segwit"/>
+</p>
+
+
 #### Propuesta Diciembre 2015 ([bip141](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki "BIP141"))
 
 . Segwit fue propuesto mediante un BIP (Bitcoin Improvement Proposals) por Eric Lombrozo ([@eric_lombrozo](https://twitter.com/eric_lombrozo "Eric Lombrozo")), Johnson Lau ([@johnsonlau01](https://twitter.com/johnsonlau01 "Johnson Lau")) y Pieter Wuille ([@pwuille](https://twitter.com/pwuille "Pieter Wuille")
@@ -37,4 +45,12 @@ Este documento cuenta la historia de segwit (testigo segregado), desde su concep
   - Mayor seguridad en multifirma con P2SH
   - Reduce el crecimiento de los UTXO (Salidas de transacciones no gastadas)
 
-# Documento en proceso
+#### Críticas
+  - Jeff Garzik ([@jgarzik](https://twitter.com/jgarzik "Jeff Garzik")) consideró insuficiente a SegWit como solución de escalado.
+  - Mike Hearn, desarrollador principal del cliente [Bitcoin XT](https://bitcoinxt.software/ "Bitcoin XT") calificó a SegWit como "un truco contable", dejó el desarrollo de Bitcoin poco después.
+  - Jonathan Toomim, desarrollado del cliente [Bitcoin Classic](https://bitcoinclassic.com/ "Bitcoin Classic") comentó que SegWit era "feo y raro", sugirió que sería mejor implementarlo como hard fork.
+  - Peter Todd ([@peterktodd](https://twitter.com/peterktodd "Peter Todd")) tenía sus dudas en partícular en lo respectivo a minería. [[1](https://petertodd.org/2016/segwit-consensus-critical-code-review#peer-to-peer-networking)] [[2](https://www.mail-archive.com/bitcoin-dev@lists.linuxfoundation.org/msg03178.html)]
+
+#### Desarrollo
+
+
