@@ -1,4 +1,8 @@
-## Segwit (Historia)<p align="right"><img src="img_segwit/220px-Segwit.svg.png?raw=true" alt="Logo Segwit"/></p>
+<p align="right">
+  <img src="img_segwit/220px-Segwit.svg.png?raw=true" alt="Logo Segwit"/>
+</p>
+
+## Segwit (Historia)
 
 Este documento cuenta la historia de segwit (testigo segregado), desde su concepción hasta su activación 
 
