@@ -24,13 +24,13 @@ Este documento cuenta la historia de segwit (testigo segregado), desde su concep
 . Es un soft fork, es decir, los clientes no actualizados pueden coexistir con las versiones actualizadas.
 
 . La descripción de segwit se divide en 5 BIP:
-  - [BIP141](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki "BIP141")
+  - [BIP141](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki "BIP141") - Activado el 24 de Agosto de 2017
     - Descripción general
-  - [BIP142](https://github.com/bitcoin/bips/blob/master/bip-0142.mediawiki "BIP142")
+  - [BIP142](https://github.com/bitcoin/bips/blob/master/bip-0142.mediawiki "BIP142") - Reemplazado por el BIP143
     - Describe el formato nativo de las direcciones de pay-to-witness-public-key-hash (P2WPKH) y pay-to-witness-script-hash (P2WSH).
-  - [BIP143](https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki "BIP143")
+  - [BIP143](https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki "BIP143") - Activado el 24 de Agosto de 2017
     - Entra en detalle en la verificación de transacciones en segwit y como resuelte el crecimiento cuadrático del hash de firmas.
-  - [BIP144](https://github.com/bitcoin/bips/blob/master/bip-0144.mediawiki "BIP144")
+  - [BIP144](https://github.com/bitcoin/bips/blob/master/bip-0144.mediawiki "BIP144") - Activado el 24 de Agosto de 2017
     - Trata el cambio en los mensajes de red provocados por segwit.
   - [BIP145](https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki "BIP145")
     - Cubre los cambios en la llamada JSON-RPC *getblocktemplate* al cliente bitcoin core.
@@ -51,6 +51,12 @@ Este documento cuenta la historia de segwit (testigo segregado), desde su concep
   - Jonathan Toomim, desarrollado del cliente [Bitcoin Classic](https://bitcoinclassic.com/ "Bitcoin Classic") comentó que SegWit era "feo y raro", sugirió que sería mejor implementarlo como hard fork.
   - Peter Todd ([@peterktodd](https://twitter.com/peterktodd "Peter Todd")) tenía sus dudas en partícular en lo respectivo a minería. [[1](https://petertodd.org/2016/segwit-consensus-critical-code-review#peer-to-peer-networking)] [[2](https://www.mail-archive.com/bitcoin-dev@lists.linuxfoundation.org/msg03178.html)]
 
-#### Desarrollo
+#### Entorno
+Mientras SegWit se desarrollaba en la comunidad Bitcoin había tensiones en cuanto al tamaño del bloque (1MB), varios mineros y compañias Bitcoin encabezados por Bitcoin Classic preparaban un hard fork para aumentar el tamaño a 2 MB. [[1]](https://web.archive.org/web/20160129090054/https://bitcoinclassic.com/ "HF 2MB") 
 
-
+El 21 de Febrero de 2016 en una reunión entre varios desarrolladores de Bitcoin Core, operadores de agrupaciones mineras y miembros de la industria Bitcoin para discutir el problema de escalabilidad se llegó a un acuerdo conocido como ["El acuerdo de la mesa redonda de Bitcoin"](https://medium.com/@bitcoinroundtable/bitcoin-roundtable-consensus-266d475a61ff "El acuerdo de la mesa redonda de Bitcoin"), ese acuerdo consistió en estos puntos:
+  - SegWit se está desarrollando como soft fork y se lanzará en los próximos 2 meses.
+  - Se trabajará públicamente junto a toda la comunidad de desarrolladores del protocolo Bitcoin en un hard fork basado en las mejoras de SegWit. Los desarrolladores de Bitcoin Core tendrán una implementación de dicho hard fork para presentar 3 meses después del lanzamiento de SegWit.
+  - Este hard fork incluirá características que se están tratando como aumentar el tamaño de los datos no testigos (non witness) a los 2 MB y sólo será adoptado si hay un acuerdo de la mayoría la comunidad Bitcoin.
+  - Los mineros utilizarán SegWit cuando el hard fork se implemente en el cliente Bitcoin Core.
+  - 
