@@ -7,10 +7,10 @@
 Este documento cuenta la historia de segwit (testigo segregado), desde su concepción hasta su activación 
 
 #### Comienzos
-. Segwit fue desarrollado en ["The Elements Project"](https://github.com/ElementsProject/elementsproject.org "The Elements Project") con Pieter Wuille ([@pwuille](https://twitter.com/pwuille "Pieter Wuille")) como investigador principal, su implementación en Bitcoin suponía un hard fork, posteriormente Luke Dashjr ([@LukeDashjr](https://twitter.com/LukeDashjr "Luke Darshjr")) propuso la forma de implementarlo como soft fork y tras esto se preparó el BIP para integrarlo en Bitcoin.
+Segwit fue desarrollado en ["The Elements Project"](https://github.com/ElementsProject/elementsproject.org "The Elements Project") con Pieter Wuille ([@pwuille](https://twitter.com/pwuille "Pieter Wuille")) como investigador principal, su implementación en Bitcoin suponía un hard fork, posteriormente Luke Dashjr ([@LukeDashjr](https://twitter.com/LukeDashjr "Luke Darshjr")) propuso la forma de implementarlo como soft fork y tras esto se preparó el BIP para integrarlo en Bitcoin.
 
 #### ¿Qué es segwit?
-. Segwit es una actualización del protocolo Bitcoin que modifica la estructura de las transacciones, guarda toda la información susceptible de ser maleable a un nuevo campo "witness data". El id de la transacción se calcula sin contar con este campo por lo que posteriormente no se puede modificar.
+Segwit es una actualización del protocolo Bitcoin que modifica la estructura de las transacciones, guarda toda la información susceptible de ser maleable a un nuevo campo "witness data". El id de la transacción se calcula sin contar con este campo por lo que posteriormente no se puede modificar.
 
 <p align="center">
   <img src="img_segwit/transaction.png?raw=true" alt="Transacción Segwit"/>
@@ -19,21 +19,21 @@ Este documento cuenta la historia de segwit (testigo segregado), desde su concep
 
 #### Propuesta Diciembre 2015 ([bip141](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki "BIP141"))
 
-. Segwit fue propuesto mediante un BIP (Bitcoin Improvement Proposals) por Eric Lombrozo ([@eric_lombrozo](https://twitter.com/eric_lombrozo "Eric Lombrozo")), Johnson Lau ([@johnsonlau01](https://twitter.com/johnsonlau01 "Johnson Lau")) y Pieter Wuille ([@pwuille](https://twitter.com/pwuille "Pieter Wuille"))
+Segwit fue propuesto mediante un BIP (Bitcoin Improvement Proposals) por Eric Lombrozo ([@eric_lombrozo](https://twitter.com/eric_lombrozo "Eric Lombrozo")), Johnson Lau ([@johnsonlau01](https://twitter.com/johnsonlau01 "Johnson Lau")) y Pieter Wuille ([@pwuille](https://twitter.com/pwuille "Pieter Wuille"))
 
-. Es un soft fork, es decir, los clientes no actualizados pueden coexistir con las versiones actualizadas.
+Es un soft fork, es decir, los clientes no actualizados pueden coexistir con las versiones actualizadas.
 
-. La descripción de segwit se divide en 5 BIP:
-  - [BIP141](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki "BIP141") - Activado el 24 de Agosto de 2017
-    - Descripción general
-  - [BIP142](https://github.com/bitcoin/bips/blob/master/bip-0142.mediawiki "BIP142") - Reemplazado por el BIP143
-    - Describe el formato nativo de las direcciones de pay-to-witness-public-key-hash (P2WPKH) y pay-to-witness-script-hash (P2WSH).
-  - [BIP143](https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki "BIP143") - Activado el 24 de Agosto de 2017
-    - Entra en detalle en la verificación de transacciones en segwit y como resuelte el crecimiento cuadrático del hash de firmas.
-  - [BIP144](https://github.com/bitcoin/bips/blob/master/bip-0144.mediawiki "BIP144") - Activado el 24 de Agosto de 2017
-    - Trata el cambio en los mensajes de red provocados por segwit.
-  - [BIP145](https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki "BIP145")
-    - Cubre los cambios en la llamada JSON-RPC *getblocktemplate* al cliente bitcoin core.
+La descripción de segwit se divide en 5 BIP:
+ - [BIP141](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki "BIP141") - Activado el 24 de Agosto de 2017
+   - Descripción general
+ - [BIP142](https://github.com/bitcoin/bips/blob/master/bip-0142.mediawiki "BIP142") - Reemplazado por el BIP143
+   - Describe el formato nativo de las direcciones de pay-to-witness-public-key-hash (P2WPKH) y pay-to-witness-script-hash (P2WSH).
+ - [BIP143](https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki "BIP143") - Activado el 24 de Agosto de 2017
+   - Entra en detalle en la verificación de transacciones en segwit y como resuelte el crecimiento cuadrático del hash de firmas.
+ - [BIP144](https://github.com/bitcoin/bips/blob/master/bip-0144.mediawiki "BIP144") - Activado el 24 de Agosto de 2017
+   - Trata el cambio en los mensajes de red provocados por segwit.
+ - [BIP145](https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki "BIP145")
+   - Cubre los cambios en la llamada JSON-RPC *getblocktemplate* al cliente bitcoin core.
 
 #### [Mejoras](https://bitcoincore.org/en/2016/01/26/segwit-benefits/ "Mejoras Segwit (en)")
   - Soluciona la maleabilidad de las transacciones. ([¿En qué consiste la maleabilidad?](https://bitcointalk.org/index.php?topic=465427.msg5145366#msg5145366 "Maleabilidad de las transacciones"))
@@ -59,4 +59,7 @@ El 21 de Febrero de 2016 en una reunión entre varios desarrolladores de Bitcoin
   - Se trabajará públicamente junto a toda la comunidad de desarrolladores del protocolo Bitcoin en un hard fork basado en las mejoras de SegWit. Los desarrolladores de Bitcoin Core tendrán una implementación de dicho hard fork para presentar 3 meses después del lanzamiento de SegWit.
   - Este hard fork incluirá características que se están tratando como aumentar el tamaño de los datos no testigos (non witness) a los 2 MB y sólo será adoptado si hay un acuerdo de la mayoría la comunidad Bitcoin.
   - Los mineros utilizarán SegWit cuando el hard fork se implemente en el cliente Bitcoin Core.
-  - 
+  - Solo se utilizarán sistemas compatibles con el consenso de Bitcoin Core que contendrán SegWit y el hard fork.
+  - Se seguirán investigando tecnologías para usar el espacio en los bloques más eficientemente como las firmas [Schnorr.](https://bitcoinmagazine.com/articles/the-power-of-schnorr-the-signature-algorithm-to-increase-bitcoin-s-scale-and-privacy-1460642496/ "Firmas Schnorr")
+
+# Documento en proceso
