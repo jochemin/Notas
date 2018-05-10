@@ -82,3 +82,12 @@ Lo malo del soft-hardfork era que se podía aplicar sin que los usuarios pudiera
 La falta de señalización de conformidad a SegWit por parte de los mineros y lo que varios desarrolladores [consideraron una ruptura de acuerdo](https://www.reddit.com/r/btc/comments/47dbeh/f2pool_why_not_take_a_cue_from_slush_and_offer/d0chqph/ "Ruptura de acuerdo") por parte del consorcio minero chino [F2Pool](https://www.f2pool.com/ "F2Pool") hicieron que los desarrolladores cambiaran su punto de vista. Peter Todd 
 
 ###### Presentación de SegWit de Pieter Wuille ([@pwuille](https://twitter.com/pwuille "Pieter Wuille"))."Scaling Bitcoin", Hong Kong 14-Dic-2015 [-VIDEO-](https://www.youtube.com/watch?v=NOYNZB5BCHM)
+###### Fuentes:
+ - [The long road to SegWit](https://bitcoinmagazine.com/articles/long-road-segwit-how-bitcoins-biggest-protocol-upgrade-became-reality/ "The long road to SegWit")
+ - [SegWit explicado](https://es.cointelegraph.com/explained/segwit-explained "SegWit explicado")
+ - [Segregated Witness: a fork too far](https://medium.com/the-publius-letters/segregated-witness-a-fork-too-far-87d6e57a4179 "Segregated Witness: a fork too far")
+ - [Segregated witness and deploying it for Bitcoin](https://prezi.com/lyghixkrguao/segregated-witness-and-deploying-it-for-bitcoin/ "Segregated witness and deploying it for Bitcoin")
+ - [Segwit in Bitcoin: Lessons Learned (PDF)](https://scalingbitcoin.org/milan2016/presentations/D2%20-%201%20-%20Greg%20Sanders.pdf "Segwit in Bitcoin: Lessons Learned")
+ - [The Elements Project: Segregated Witness](https://www.elementsproject.org/elements/segregated-witness/ "The Elements Project: Segregated Witness")
+ - [UASF.co](http://www.uasf.co/ "UASF")
+ - [Bitcoin miners miss the first BIP 148 "deadline"](https://bitcoinmagazine.com/articles/bitcoin-miners-miss-first-bip-148-deadline/ "Bitcoin miners miss the first BIP 148 deadline")
