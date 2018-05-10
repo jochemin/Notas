@@ -62,4 +62,15 @@ El 21 de Febrero de 2016 en una reunión entre varios desarrolladores de Bitcoin
   - Solo se utilizarán sistemas compatibles con el consenso de Bitcoin Core que contendrán SegWit y el hard fork.
   - Se seguirán investigando tecnologías para usar el espacio en los bloques más eficientemente como las firmas [Schnorr.](https://bitcoinmagazine.com/articles/the-power-of-schnorr-the-signature-algorithm-to-increase-bitcoin-s-scale-and-privacy-1460642496/ "Firmas Schnorr")
 
+Mese más tarde, en Julio de 2016 tuvo lugar una [reunión](https://bitcoinmagazine.com/articles/bitcoin-miners-and-developers-meet-in-california-to-improve-communications-1470158657/ "Reunión Julio") entre desarrolladores de Bitcoin Core y operadores de agrupaciones mineras en California. Los desarrolladores de Bitcoin Core salieron de la reunión convencidos de que SegWit sería activado por los mineros.
+
+#### Lanzamiento
+SegWit se incluyó en la versión 0.13.1 del cliente [Bitcoin Core](https://github.com/bitcoin/bitcoin "Bitcoin Core"), también se implementó en otros clientes como [Knots](https://github.com/bitcoinknots/bitcoin "Bitcoin Knots") o [Bcoin](https://github.com/bcoin-org/bcoin "Bcoin")
+
+Para activar SegWit se utilizó un metodo llamado ["VersionBits"](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki "BIP9") diseñado para minimizar interrupciones en la red. El 95% de los mineros tenían que señalizar su conformidad para que SegWit se activara en la red Bitcoin. Esta señalización iba a comenzar el 15 de Noviembre de 2016.
+
+Se animó a los usuarios a que actualizaran el cliente lo que hicieron la mayoría. 
+
+Todo apuntaba a que SegWit se activaría en breve.
+
 # Documento en proceso
