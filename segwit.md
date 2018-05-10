@@ -54,7 +54,7 @@ La descripción de segwit se divide en 5 BIP:
 #### Entorno
 Mientras SegWit se desarrollaba en la comunidad Bitcoin había tensiones en cuanto al tamaño del bloque (1MB), varios mineros y compañias Bitcoin encabezados por Bitcoin Classic preparaban un hard fork para aumentar el tamaño a 2 MB. [[1]](https://web.archive.org/web/20160129090054/https://bitcoinclassic.com/ "HF 2MB") 
 
-El 21 de Febrero de 2016 en una reunión entre varios desarrolladores de Bitcoin Core, operadores de agrupaciones mineras y miembros de la industria Bitcoin para discutir el problema de escalabilidad se llegó a un acuerdo conocido como ["El acuerdo de la mesa redonda de Bitcoin"](https://medium.com/@bitcoinroundtable/bitcoin-roundtable-consensus-266d475a61ff "El acuerdo de la mesa redonda de Bitcoin"), ese acuerdo consistió en estos puntos:
+El 21 de Febrero de 2016 en una reunión en Hong Kong entre varios desarrolladores de Bitcoin Core, operadores de agrupaciones mineras y miembros de la industria Bitcoin para discutir el problema de escalabilidad se llegó a un acuerdo conocido como ["El acuerdo de la mesa redonda de Bitcoin"](https://medium.com/@bitcoinroundtable/bitcoin-roundtable-consensus-266d475a61ff "El acuerdo de la mesa redonda de Bitcoin"), ese acuerdo consistió en estos puntos:
   - SegWit se está desarrollando como soft fork y se lanzará en los próximos 2 meses.
   - Se trabajará públicamente junto a toda la comunidad de desarrolladores del protocolo Bitcoin en un hard fork basado en las mejoras de SegWit. Los desarrolladores de Bitcoin Core tendrán una implementación de dicho hard fork para presentar 3 meses después del lanzamiento de SegWit.
   - Este hard fork incluirá características que se están tratando como aumentar el tamaño de los datos no testigos (non witness) a los 2 MB y sólo será adoptado si hay un acuerdo de la mayoría la comunidad Bitcoin.
@@ -71,6 +71,14 @@ Para activar SegWit se utilizó un metodo llamado ["VersionBits"](https://github
 
 Se animó a los usuarios a que actualizaran el cliente lo que hicieron la mayoría. 
 
-Todo apuntaba a que SegWit se activaría en breve.
+Todo apuntaba a que SegWit se activaría en breve, pero no fue así.
+
+Varios de los participantes de la reunión de Hong Kong [cambiaron de opinión](https://bitcoinmagazine.com/articles/the-status-of-the-hong-kong-hard-fork-an-update-1479843521/ "Cambios de opinión").
+
+Un hard fork significa que el protocolo que se es válido deja de serlo tras el momento del hard fork, los desarrolladores ven un peligro en este tipo de actualización y es que todos los clientes deben ir a la nueva versión si hay usuarios que no están de acuerdo pueden quedarse en la versión "vieja" del protocolo y provoca una bifurcación. Para evitar esto se propuso un ["soft-hardfork".](https://petertodd.org/2016/forced-soft-forks "soft-hardfork")
+
+Lo malo del soft-hardfork era que se podía aplicar sin que los usuarios pudieran hacer nada, les obligaba a seguir las normas aunque no estuvieran de acuerdo o crear una nueva red. Para evitar esta situación los desarrolladores buscaban la manera de tener confirmación por parte de la comunidad de Bitcoin. Para ello se propusieron 2 soluciones basadas en los bitcoin que controlaban los usuarios, estas soluciones se llamaron "señalización con moneda" (coin-signaling). La primera de las soluciones permitía a los usuarios agregar un dato en las transacciones señalizando su conformidad con el fork, si todas las transacciones durante un periodo de tiempo señalizaban el fork se consideraba que la comunidad lo aprobaba. La segunda solución en la que estuvo trabajando [Peter Todd](https://twitter.com/peterktodd "Peter Todd") permitía a los usarios mostrar su posición sin necesidad de realizar transacciones, lo explicó [en su blog.](https://petertodd.org/2016/hardforks-after-the-segwit-blocksize-increase)
+
+La falta de señalización de conformidad a SegWit por parte de los mineros y lo que varios desarrolladores [consideraron una ruptura de acuerdo](https://www.reddit.com/r/btc/comments/47dbeh/f2pool_why_not_take_a_cue_from_slush_and_offer/d0chqph/ "Ruptura de acuerdo") por parte del consorcio minero chino [F2Pool](https://www.f2pool.com/ "F2Pool") hicieron que los desarrolladores cambiaran su punto de vista. Peter Todd 
 
 # Documento en proceso
