@@ -81,4 +81,4 @@ Lo malo del soft-hardfork era que se podía aplicar sin que los usuarios pudiera
 
 La falta de señalización de conformidad a SegWit por parte de los mineros y lo que varios desarrolladores [consideraron una ruptura de acuerdo](https://www.reddit.com/r/btc/comments/47dbeh/f2pool_why_not_take_a_cue_from_slush_and_offer/d0chqph/ "Ruptura de acuerdo") por parte del consorcio minero chino [F2Pool](https://www.f2pool.com/ "F2Pool") hicieron que los desarrolladores cambiaran su punto de vista. Peter Todd 
 
-###### Presentación de SegWit de Pieter Wuille ([@pwuille](https://twitter.com/pwuille "Pieter Wuille")) en "Scaling Bitcoin" en Hong Kong 14-Dic-2015 [-VIDEO-](https://www.youtube.com/watch?v=NOYNZB5BCHM)
+###### Presentación de SegWit de Pieter Wuille ([@pwuille](https://twitter.com/pwuille "Pieter Wuille"))."Scaling Bitcoin", Hong Kong 14-Dic-2015 [-VIDEO-](https://www.youtube.com/watch?v=NOYNZB5BCHM)
