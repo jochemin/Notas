@@ -1,9 +1,6 @@
-<p align="right">
+<p align="center">
   <img src="img_segwit/220px-Segwit.svg.png?raw=true" alt="Logo Segwit"/>
 </p>
-
-## Segwit (Historia)
-
 Este documento cuenta la historia de segwit (testigo segregado), desde su concepción hasta su activación 
 
 #### Comienzos
@@ -79,7 +76,12 @@ Un hard fork significa que el protocolo que se es válido deja de serlo tras el 
 
 Lo malo del soft-hardfork era que se podía aplicar sin que los usuarios pudieran hacer nada, les obligaba a seguir las normas aunque no estuvieran de acuerdo o crear una nueva red. Para evitar esta situación los desarrolladores buscaban la manera de tener confirmación por parte de la comunidad de Bitcoin. Para ello se propusieron 2 soluciones basadas en los bitcoin que controlaban los usuarios, estas soluciones se llamaron "señalización con moneda" (coin-signaling). La primera de las soluciones permitía a los usuarios agregar un dato en las transacciones señalizando su conformidad con el fork, si todas las transacciones durante un periodo de tiempo señalizaban el fork se consideraba que la comunidad lo aprobaba. La segunda solución en la que estuvo trabajando [Peter Todd](https://twitter.com/peterktodd "Peter Todd") permitía a los usarios mostrar su posición sin necesidad de realizar transacciones, lo explicó [en su blog.](https://petertodd.org/2016/hardforks-after-the-segwit-blocksize-increase)
 
-La falta de señalización de conformidad a SegWit por parte de los mineros y lo que varios desarrolladores [consideraron una ruptura de acuerdo](https://www.reddit.com/r/btc/comments/47dbeh/f2pool_why_not_take_a_cue_from_slush_and_offer/d0chqph/ "Ruptura de acuerdo") por parte del consorcio minero chino [F2Pool](https://www.f2pool.com/ "F2Pool") hicieron que los desarrolladores cambiaran su punto de vista. Peter Todd 
+La señalización de apoyo a Segwit por parte de los mineros era escasa y el consorcio minero chino [F2Pool](https://www.f2pool.com/ "F2Pool") hizo un movimiento que varios desarrolladores [consideraron una ruptura de acuerdo](https://www.reddit.com/r/btc/comments/47dbeh/f2pool_why_not_take_a_cue_from_slush_and_offer/d0chqph/ "Ruptura de acuerdo").
+
+[Jihan Wu](https://twitter.com/JihanWu "Jihan Wu") co-CEO de Bitmain dijo que sólo activaría SegWit si se hacía el hardfork de aumento del tamaño del bloque, otros consorcios como F2Pool, HaoBTC o bitcoin.com [tampoco señalizaron el apoyo](https://bitcoinmagazine.com/articles/where-bitcoin-mining-pools-stand-on-segregated-witness-1480086424/) a SegWit.
+
+#### [UASF (User Activated Soft Fork)](http://www.uasf.co/ "User Activated Soft Fork")
+
 
 ###### Presentación de SegWit de Pieter Wuille ([@pwuille](https://twitter.com/pwuille "Pieter Wuille"))."Scaling Bitcoin", Hong Kong 14-Dic-2015 [-VIDEO-](https://www.youtube.com/watch?v=NOYNZB5BCHM)
 ###### Fuentes:
