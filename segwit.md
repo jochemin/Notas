@@ -44,7 +44,7 @@ La descripción de segwit se divide en 5 BIP:
 
 #### Críticas
   - Jeff Garzik ([@jgarzik](https://twitter.com/jgarzik "Jeff Garzik")) consideró insuficiente a SegWit como solución de escalado.
-  - Mike Hearn, desarrollador principal del cliente [Bitcoin XT](https://bitcoinxt.software/ "Bitcoin XT") calificó a SegWit como "un truco contable", dejó el desarrollo de Bitcoin poco después.
+  - Mike Hearn, desarrollador principal del cliente [Bitcoin XT](https://bitcoinxt.software/ "Bitcoin XT") calificó a SegWit como "un truco contable", [dejó el desarrollo de Bitcoin poco después](https://blog.plan99.net/the-resolution-of-the-bitcoin-experiment-dabb30201f7).
   - Jonathan Toomim, desarrollado del cliente [Bitcoin Classic](https://bitcoinclassic.com/ "Bitcoin Classic") comentó que SegWit era "feo y raro", sugirió que sería mejor implementarlo como hard fork.
   - Peter Todd ([@peterktodd](https://twitter.com/peterktodd "Peter Todd")) tenía sus dudas en particular en lo respectivo a minería. [[1](https://petertodd.org/2016/segwit-consensus-critical-code-review#peer-to-peer-networking)] [[2](https://www.mail-archive.com/bitcoin-dev@lists.linuxfoundation.org/msg03178.html)]
 
@@ -130,13 +130,6 @@ Fue [James Hilliard](https://twitter.com/james_hilliard) ingeniero de [Myrig](ht
 A mediados de Julio la minería Bitcoin [había perdido la primera fecha límite del BIP148](https://bitcoinmagazine.com/articles/bitcoin-miners-miss-first-bip-148-deadline/) lo que puso nervioso al mercado, posiblemente provocada por este nerviosismo la minería comenzó a señalizar su apoyo al BIP91 y el 20 de Julio se fijó para activarse 2 días más tarde.
 
 Con BIP91 fijado sólo era cuestión de tiempo que lo hiciera SegWit, esto ocurrió el 9 de Agosto. Bitcoin activaría SegWit 2 semanas más tarde. 
-
-
-
-
-
-
-
 
 ###### Fuentes:
  - [The long road to SegWit](https://bitcoinmagazine.com/articles/long-road-segwit-how-bitcoins-biggest-protocol-upgrade-became-reality/ "The long road to SegWit")
