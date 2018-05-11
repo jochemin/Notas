@@ -81,13 +81,21 @@ La señalización de apoyo a Segwit por parte de los mineros era escasa y el con
 [Jihan Wu](https://twitter.com/JihanWu "Jihan Wu") co-CEO de Bitmain dijo que sólo activaría SegWit si se hacía el hardfork de aumento del tamaño del bloque, otros consorcios como F2Pool, HaoBTC o bitcoin.com [tampoco señalizaron el apoyo](https://bitcoinmagazine.com/articles/where-bitcoin-mining-pools-stand-on-segregated-witness-1480086424/) a SegWit.
 
 #### [UASF (User Activated Soft Fork)](http://www.uasf.co/ "User Activated Soft Fork")
-En Febrero de 2017 [shaolinfry](https://twitter.com/shaolinfry "shaolinfry") propuso [[1](https://www.mail-archive.com/bitcoin-dev@lists.linuxfoundation.org/msg04703.html "Propuesta UASF")[[2]](https://bitcointalk.org/index.php?topic=1805060.0 "Propuesta UASF") una activación provocada por los nodos completos, la mayoría económica.
+En Febrero de 2017 [shaolinfry](https://twitter.com/shaolinfry "shaolinfry") propuso [[1]](https://www.mail-archive.com/bitcoin-dev@lists.linuxfoundation.org/msg04703.html "Propuesta UASF")[[2]](https://bitcointalk.org/index.php?topic=1805060.0 "Propuesta UASF") una activación provocada por los nodos completos, la mayoría económica.
 
 Shaolinfry propuso cambiar el estandar de activación de soft fork que hasta ese momento era la activación por poder de cómputo a una activación provocada por todos los usuarios. 
 
 Una activación de soft fork por parte del usuario tendría un "día de comienzo de activación" en el que los nodos comenzarían a forzar la activación en una fecha posterior, si la mayoría económica forzase dicha activación haría que la minería le siguiera.
 
-La idea empezó a coger fuerza y cuando [Samson Mow](https://twitter.com/Excellion "Samson Mow") montó [un fondo de recompensas](https://twitter.com/excellion/status/844349077638676480) parecias que la propuesta se convertiría en realidad.
+La idea empezó a coger fuerza y cuando [Samson Mow](https://twitter.com/Excellion "Samson Mow") montó [un fondo de recompensas](https://twitter.com/excellion/status/844349077638676480) parecía que la propuesta se convertiría en realidad.
+
+#### ASICBOOST
+La primera semana de Abril de 2017 [Gregory Maxwell](https://github.com/gmaxwell) explicó que había encontrado [ASICBOOST](https://themerkle.com/what-is-asicboost/ "ASICBOOST") implementado en algunos chip de minado, esta tecnología daba una ventaja en el minado a estos chip. SegWit haría incompatible esta manera de utilizar ASICBOOST. Bitmain [admitió](https://blog.bitmain.com/en/regarding-recent-allegations-smear-campaigns/) que había implementado esta tecnología patentada en sus chip, aunque dijo no utilizarla en la red de producción de Bitcoin. 
+
+Esta noticia generó mayor interés por parte de la comunidad en activar SegWit.
+
+#### [BIP148](https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki "BIP148")
+
 
 
 
@@ -102,3 +110,4 @@ La idea empezó a coger fuerza y cuando [Samson Mow](https://twitter.com/Excelli
  - [UASF.co](http://www.uasf.co/ "UASF")
  - [Bitcoin miners miss the first BIP 148 "deadline"](https://bitcoinmagazine.com/articles/bitcoin-miners-miss-first-bip-148-deadline/ "Bitcoin miners miss the first BIP 148 deadline")
  - Presentación de SegWit de Pieter Wuille ([@pwuille](https://twitter.com/pwuille "Pieter Wuille"))."Scaling Bitcoin", Hong Kong 14-Dic-2015 [-VIDEO-](https://www.youtube.com/watch?v=NOYNZB5BCHM)
+ -[What is ASICBOOST?](https://themerkle.com/what-is-asicboost/ "What is ASICBOOST?")
