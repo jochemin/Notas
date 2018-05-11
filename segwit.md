@@ -7,7 +7,7 @@ Este documento cuenta la historia de segwit (testigo segregado), desde su concep
 Segwit fue desarrollado en ["The Elements Project"](https://github.com/ElementsProject/elementsproject.org "The Elements Project") con Pieter Wuille ([@pwuille](https://twitter.com/pwuille "Pieter Wuille")) como investigador principal, su implementación en Bitcoin suponía un hard fork, posteriormente Luke Dashjr ([@LukeDashjr](https://twitter.com/LukeDashjr "Luke Darshjr")) propuso la forma de implementarlo como soft fork y tras esto se preparó el BIP para integrarlo en Bitcoin.
 
 #### ¿Qué es segwit?
-Segwit es una actualización del protocolo Bitcoin que modifica la estructura de las transacciones, guarda toda la información susceptible de ser maleable a un nuevo campo "witness data". El id de la transacción se calcula sin contar con este campo por lo que posteriormente no se puede modificar.
+Segwit es una actualización del protocolo Bitcoin que modifica la estructura de las transacciones, guarda toda la información susceptible de ser maleable en un nuevo campo "witness data". El id de la transacción se calcula sin contar con este campo por lo que posteriormente no se puede modificar.
 
 <p align="center">
   <img src="img_segwit/transaction.png?raw=true" alt="Transacción Segwit"/>
@@ -81,6 +81,15 @@ La señalización de apoyo a Segwit por parte de los mineros era escasa y el con
 [Jihan Wu](https://twitter.com/JihanWu "Jihan Wu") co-CEO de Bitmain dijo que sólo activaría SegWit si se hacía el hardfork de aumento del tamaño del bloque, otros consorcios como F2Pool, HaoBTC o bitcoin.com [tampoco señalizaron el apoyo](https://bitcoinmagazine.com/articles/where-bitcoin-mining-pools-stand-on-segregated-witness-1480086424/) a SegWit.
 
 #### [UASF (User Activated Soft Fork)](http://www.uasf.co/ "User Activated Soft Fork")
+En Febrero de 2017 [shaolinfry](https://twitter.com/shaolinfry "shaolinfry") propuso [[1](https://www.mail-archive.com/bitcoin-dev@lists.linuxfoundation.org/msg04703.html "Propuesta UASF")[[2]](https://bitcointalk.org/index.php?topic=1805060.0 "Propuesta UASF") una activación provocada por los nodos completos, la mayoría económica.
+
+Shaolinfry propuso cambiar el estandar de activación de soft fork que hasta ese momento era la activación por poder de cómputo a una activación provocada por todos los usuarios. 
+
+Una activación de soft fork por parte del usuario tendría un "día de comienzo de activación" en el que los nodos comenzarían a forzar la activación en una fecha posterior, si la mayoría económica forzase dicha activación haría que la minería le siguiera.
+
+La idea empezó a coger fuerza y cuando [Samson Mow](https://twitter.com/Excellion "Samson Mow") montó [un fondo de recompensas](https://twitter.com/excellion/status/844349077638676480) parecias que la propuesta se convertiría en realidad.
+
+
 
 
 ###### Fuentes:
