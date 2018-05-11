@@ -95,10 +95,41 @@ La primera semana de Abril de 2017 [Gregory Maxwell](https://github.com/gmaxwell
 Esta noticia generó mayor interés por parte de la comunidad en activar SegWit.
 
 #### [BIP148](https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki "BIP148")
+La propuesta de UASF se discutió en un [canal creado para ello en el slack de Bitcoin Core](https://bitcoincore.slack.com/ "Slack Bitcoin Core") y shaolinfry propuso el [BIP148](https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki "BIP148").
 
+La propuesta no tuvo mucho éxito, ninguno de los mayores exchanges se unieron y se oyeron [opiniones en contra](https://twitter.com/spair/status/852160130296762369) como la del CEO de [bitpay](https://bitpay.com/ "bitpay") [Stephen Pair](https://twitter.com/spair "Stephen Pair").
 
+[Gregory Maxwell](https://github.com/gmaxwell) también dijo que el BIP148 [le parecía una mala idea](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-April/014152.html).
 
+Parecía que UASF había fracasado pero alguien comenzó a trabajar en una alternativa: [BIP149](https://github.com/bitcoin/bips/blob/master/bip-0149.mediawiki "BIP149")
 
+#### El acuerdo de Nueva York
+El debate sobre el aumento del tamaño del bloque continuaba, otro cliente, [Bitcoin Unlimited](https://www.bitcoinunlimited.info/ "Bitcoin Unlimited"), que apoyaba incrementar el tamaño mediante un hardfork se hizo popular entre la minería, con el apoyo de Bitmain todo indicaba que se iba a realizar el hard fork.
+
+Por esta razón [Barry Silbert](https://twitter.com/barrysilbert "Barry Silbert") organizó una reunión aprovechando el evento ["Consensus 2017"](https://www.coindesk.com/events/consensus-2017/ "Consensus 2017"), se invitó a gente de la industria Bitcoin incluyendo minería, pero no desarrolladores de Bitcoin Core. 
+
+El resultado de esta reunión se conoce como ["el acuerdo de Nueva York"](https://medium.com/@DCGco/bitcoin-scaling-agreement-at-consensus-2017-133521fe9a77) en el que los participantes se comprometieron a una solución que satisfacía a la parte que quería un hard fork y a la parte que quería SegWit. Basada en una idea de [Sergio Demian Lerner](https://twitter.com/SDLerner "Sergio Demian Lerner") la propuesta fue la siguiente:
+ - Activar SegWit cuando más del 80% de los bloques señalen con un 4 en el bit. 
+ - Activar el hardfork que aumenta a 2MB el tamaño del bloque tras 6 meses.
+[No todo el mundo estuvo de acuerdo con esta reunión](https://en.bitcoin.it/wiki/Segwit_support), estas condiciones eran incompatibles con lo propuesto por los desarrolladores Bitcoin Core cuyo código ya estaba en la mayoría de los nodos de los usuarios.
+
+Mientras, BIP148 había perdido mucho soporte en favor del BIP149 pero no todo el mundo había renunciado al UASF. 
+
+La propuesta de shaolinfry incluía la posibilidad de abortar la activación de SegWit si una mayoría no la aceptaba antes de una fecha concreta pero un grupo de usuarios tenía otra idea. Gente como [Luke Dashjr](https://twitter.com/LukeDashjr "Luke Darshjr")) estaban [considerando la posibilidad](https://www.reddit.com/r/Bitcoin/comments/6c55t4/lukejr_miners_can_do_bip148_masf_or_users_will_do/) de activar el soft fork independientemente del apoyo. 
+
+Sobre mediados de Mayo, [Alphonse Pace](https://twitter.com/alpacasw "Alphonse Pace") publicó [este artículo](https://bitcoinmagazine.com/articles/op-ed-user-activated-soft-forks-and-intolerant-minority/) sobre la "minoría intolerante", estar teoría presupone que incluso una minoría económica podría hacer que los mineros activaran SegWit ya que sino perderían parte de sus usuarios innecesariamente.
+
+Tras esto y alimentado por el escándalo AsicBoost, el BIP148 empezó a ganar adeptos, se comenzó a calificar al 1 de Agosto como ["El día de la independencia de Bitcoin".](https://twitter.com/excellion/status/869106641290973184)
+
+El problema era el BIP148 era incompatible con "el acuerdo de Nueva York". 
+
+Fue [James Hilliard](https://twitter.com/james_hilliard) ingeniero de [Myrig](https://myrig.com/) el que propuso una solución como BIP, el [BIP91](https://github.com/bitcoin/bips/blob/master/bip-0091.mediawiki "BIP91") que haría compatibles todas las opciones. Mientras la mayoría de los mineros activasen este BIP antes del 1 de Agosto, todos los nodos formarían parte de la misma red. Había poco tiempo ya que la propuesta fue a finales de Mayo, pero [Jeff Garzik](https://twitter.com/jgarzik "Jeff Garzik")) se comprometió a sacar el cliente con esta propuesta implementada semanas antes del 1 de Agosto.
+
+#### La activación
+
+A mediados de Julio la minería Bitcoin [había perdido la primera fecha límite del BIP148](https://bitcoinmagazine.com/articles/bitcoin-miners-miss-first-bip-148-deadline/) lo que puso nervioso al mercado, posiblemente provocada por este nerviosismo la minería comenzo a señalizar su apoyo al BIP91 y el 20 de Julio se fijó para activarse 2 días más tarde.
+
+Con BIP91 fijado sólo era cuestión de tiempo que lo hiciera SegWit, esto ocurrió el 9 de Agosto. Bitcoin activaría SegWit 2 semanas más tarde. 
 
 ###### Fuentes:
  - [The long road to SegWit](https://bitcoinmagazine.com/articles/long-road-segwit-how-bitcoins-biggest-protocol-upgrade-became-reality/ "The long road to SegWit")
@@ -110,4 +141,7 @@ Esta noticia generó mayor interés por parte de la comunidad en activar SegWit.
  - [UASF.co](http://www.uasf.co/ "UASF")
  - [Bitcoin miners miss the first BIP 148 "deadline"](https://bitcoinmagazine.com/articles/bitcoin-miners-miss-first-bip-148-deadline/ "Bitcoin miners miss the first BIP 148 deadline")
  - Presentación de SegWit de Pieter Wuille ([@pwuille](https://twitter.com/pwuille "Pieter Wuille"))."Scaling Bitcoin", Hong Kong 14-Dic-2015 [-VIDEO-](https://www.youtube.com/watch?v=NOYNZB5BCHM)
- -[What is ASICBOOST?](https://themerkle.com/what-is-asicboost/ "What is ASICBOOST?")
+ - [What is ASICBOOST?](https://themerkle.com/what-is-asicboost/ "What is ASICBOOST?")
+ - [Op Ed: Here's Why All Rational Miners Will Activate SegWit Through BIP148](https://bitcoinmagazine.com/articles/op-ed-heres-why-all-rational-miners-will-activate-segwit-though-bip148/ "Op Ed: Here's Why All Rational Miners Will Activate SegWit Through BIP148")
+ - [UASF BIP148 Scenarios and Game Theory](https://medium.com/@jimmysong/uasf-bip148-scenarios-and-game-theory-9530336d953e "UASF BIP148 Scenarios and Game Theory")
+ - [Why I support BIP148](https://medium.com/@elombrozo/why-i-support-bip148-4b4c0a9feb4d "Why I support BIP148")
