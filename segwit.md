@@ -83,7 +83,6 @@ La señalización de apoyo a Segwit por parte de los mineros era escasa y el con
 #### [UASF (User Activated Soft Fork)](http://www.uasf.co/ "User Activated Soft Fork")
 
 
-###### Presentación de SegWit de Pieter Wuille ([@pwuille](https://twitter.com/pwuille "Pieter Wuille"))."Scaling Bitcoin", Hong Kong 14-Dic-2015 [-VIDEO-](https://www.youtube.com/watch?v=NOYNZB5BCHM)
 ###### Fuentes:
  - [The long road to SegWit](https://bitcoinmagazine.com/articles/long-road-segwit-how-bitcoins-biggest-protocol-upgrade-became-reality/ "The long road to SegWit")
  - [SegWit explicado](https://es.cointelegraph.com/explained/segwit-explained "SegWit explicado")
@@ -93,3 +92,4 @@ La señalización de apoyo a Segwit por parte de los mineros era escasa y el con
  - [The Elements Project: Segregated Witness](https://www.elementsproject.org/elements/segregated-witness/ "The Elements Project: Segregated Witness")
  - [UASF.co](http://www.uasf.co/ "UASF")
  - [Bitcoin miners miss the first BIP 148 "deadline"](https://bitcoinmagazine.com/articles/bitcoin-miners-miss-first-bip-148-deadline/ "Bitcoin miners miss the first BIP 148 deadline")
+ - Presentación de SegWit de Pieter Wuille ([@pwuille](https://twitter.com/pwuille "Pieter Wuille"))."Scaling Bitcoin", Hong Kong 14-Dic-2015 [-VIDEO-](https://www.youtube.com/watch?v=NOYNZB5BCHM)
