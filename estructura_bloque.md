@@ -17,7 +17,7 @@
 |:---:|:---:|:---:|:---|
 |4|version|int32_t|Indica las normas de validación de bloque a seguir.|
 |32|hash de la cabecera del bloque anterior|char[32]|El hash SHA256(SHA256()) de la cabecera del bloque anterior.|
-|32|hash del merkle root|char[32]|El hash SHA256(SHA256()) del árbol de merkle.|
+|32|hash del merkle root|char[32]|El hash SHA256(SHA256()) de la raíz del árbol de merkle.|
 |4|tiempo|uint32_t|El momento en el que el minero comenzó el hash del encabezado. Expresado en segundos desde el 1 de Enero de 1970|
 |4|nBits|uint32_t|El hash de la cabecera del bloque debe ser igual o inferior a este valor.|
 |4|nonce|uint32_t|Número que los mineros cambian para generar un hash igual o inferior al valor de nBits.|
