@@ -24,7 +24,9 @@
 
 ### Contador de transacciones (1-9 bytes)
 
-
+<p align="center">
+  <img src="img_estruct_bloque/Block.jpg?raw=true" alt="Estructura bloque"/>
+</p>
 
 
 ###### Fuentes:
