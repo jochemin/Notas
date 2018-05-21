@@ -30,7 +30,7 @@
  
 
 <p align="center">
-  <img src="img_estruct_bloque/Block.jpg?raw=true" alt="Estructura bloque"/>
+  <img src="img_estruct_bloque/block.jpg?raw=true" alt="Estructura bloque"/>
 </p>
 
 
