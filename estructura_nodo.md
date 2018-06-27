@@ -26,4 +26,12 @@
     ├── debug.log     # el log de bitcoind o bitcoin-qt
     ├── mempool.dat   # las transacciones que se encuentran en la mempool del nodo
     ├── peers.dat     # base de datos con las direcciones IP de los nodos a los que nos hemos conectado
-    └── wallet.dat    # la cartera personal (Berkely DB) con las claves y las transacciones.
+    └── wallet.dat    # la cartera personal (Berkely DB *1*) con las claves y las transacciones.
+
+
+
+
+
+
+
+*1* https://bitcoin.stackexchange.com/questions/75141/why-is-wallet-dat-berkeleydb-instead-of-leveldb
