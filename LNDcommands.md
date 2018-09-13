@@ -38,3 +38,7 @@ lncli listchannels | jq '[ .channels | .[] | select(.active==false and .remote_b
 ```
 lncli listchannels | jq '[ .channels | .[] | select(.active==false)] | map(.remote_balance|tonumber) | add'
 ```
+#### Change channel fee to minimum
+```
+lncli updatechanpolicy --base_fee_msat 0 --fee_rate 0
+```
