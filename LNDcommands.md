@@ -48,5 +48,5 @@ lncli listchannels | jq '[ .channels | .[] | select(.active==false)] | map(.remo
 ```
 #### Change channel fee to minimum
 ```
-lncli updatechanpolicy --base_fee_msat 0 --fee_rate 0
+lncli updatechanpolicy --base_fee_msat 0 --fee_rate 0.000001 --time_lock_delta 144
 ```
