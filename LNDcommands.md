@@ -6,6 +6,10 @@ lncli listchannels | jq '[ .channels | .[] | select(.active==true) ] | length'
 ```
 lncli listchannels | jq '[ .channels | .[] | select(.active==false) ] | length'
 ```
+#### Close all channels
+```
+lncli listchannels | jq '.[][]' | jq -r '.channel_point' | tr : ' ' | xargs -n2 lncli closechannel
+```
 #### Close all inactive channels
 ```
 lncli listchannels | jq '.[][]' | jq -c -r 'select(.active == false) | .channel_point' | tr : ' ' | xargs -n2 lncli closechannel --force
