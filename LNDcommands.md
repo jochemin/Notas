@@ -1,3 +1,11 @@
+#### Add peer
+```
+lncli connect [uri] --> lncli connect 02d249db09237f974f1c67775accee37a9d1eb3f04f236dda177f5a5c083094f15@i4jogie5l436qgwi73df6n4zmp6td3wvegqjqpckzpfup7vtzycunsqd.onion:9735
+``` 
+#### Open channel 
+```
+lncli openchannel [nodeid] [amount]
+```
 #### Number of active channels
 ```
 lncli listchannels | jq '[ .channels | .[] | select(.active==true) ] | length'
