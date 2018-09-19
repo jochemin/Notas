@@ -6,6 +6,7 @@ lncli connect 02d249db09237f974f1c67775accee37a9d1eb3f04f236dda177f5a5c083094f15
 #### Open channel 
 ```
 lncli openchannel [nodeid] [amount]
+lncli openchannel 02d249db09237f974f1c67775accee37a9d1eb3f04f236dda177f5a5c083094f15 200000
 ```
 #### Number of active channels
 ```
