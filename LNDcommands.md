@@ -1,8 +1,16 @@
+## Peers
 #### Add peer
 ```
 lncli connect [uri]
 lncli connect 02d249db09237f974f1c67775accee37a9d1eb3f04f236dda177f5a5c083094f15@i4jogie5l436qgwi73df6n4zmp6td3wvegqjqpckzpfup7vtzycunsqd.onion:9735
 ``` 
+#### Information about a peer
+```
+lncli listpeers | jq '[ .peers | .[] | select(.pub_key=="node id") ]'
+lncli listpeers | jq '[ .peers | .[] | select(.pub_key=="032b71cc07ea5ff346e7ce9eddad0b55d7e18b788a1e6b4dda3fbd3a7ddbf79bbc") ]'
+```
+
+## Channels
 #### Open channel 
 ```
 lncli openchannel [nodeid] [amount]
