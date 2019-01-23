@@ -68,3 +68,9 @@ lncli listchannels | jq '[ .channels | .[] | select(.active==false)] | map(.remo
 ```
 lncli updatechanpolicy --base_fee_msat 0 --fee_rate 0.000001 --time_lock_delta 144
 ```
+## ON-CHAIN FUNDS
+#### Send all funds
+```
+lncli sendcoins --sweepall <address>
+lncli sendcoins --sweepall bc1q7a8afej06mgmm7574jp7uiealvtce6vecx28c
+``` 
