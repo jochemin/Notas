@@ -35,3 +35,4 @@
 
 
 *1* https://bitcoin.stackexchange.com/questions/75141/why-is-wallet-dat-berkeleydb-instead-of-leveldb
+*2* https://bitcoin.stackexchange.com/questions/28168/what-are-the-keys-used-in-the-blockchain-leveldb-ie-what-are-the-keyvalue-pair
