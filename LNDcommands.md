@@ -68,6 +68,10 @@ lncli listchannels | jq '[ .channels | .[] | select(.active==false)] | map(.remo
 ```
 lncli updatechanpolicy --base_fee_msat 0 --fee_rate 0.000001 --time_lock_delta 144
 ```
+#### Channel info
+```
+lncli listchannels | jq '[ .channels | .[] | { "remote_pubkey": .remote_pubkey, "capacity": .capacity|tonumber, "local_balance": .local_balance|tonumber, "remote_balance": .remote_balance|tonumber, "distribution_pct": ( ( .local_balance|tonumber ) / ( (.remote_balance|tonumber ) + ( .local_balance|tonumber ) ) ), "total_satoshis_sent": .total_satoshis_sent|tonumber, "total_satoshis_received": .total_satoshis_received|tonumber } ]'
+```
 ## ON-CHAIN FUNDS
 #### Send all funds
 ```
