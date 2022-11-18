@@ -35,3 +35,8 @@ echo $(bitcoin-cli decoderawtransaction $(bitcoin-cli getrawtransaction $(bitcoi
 ```
 grep "2022-11-18" ~/.bitcoin/debug.log | grep -c "replacing tx"
 ```
+
+### Ver reemplazo de tx en tiempo real
+```
+tail -f ~/.bitcoin/debug.log| grep -A 1 "replacing tx"
+```
