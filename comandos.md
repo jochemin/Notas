@@ -30,3 +30,8 @@ d=1; for ((i=0; i < $(bitcoin-cli getblockchaininfo | jq .blocks); i += 2016)) d
 ```
 echo $(bitcoin-cli decoderawtransaction $(bitcoin-cli getrawtransaction $(bitcoin-cli getblock $(bitcoin-cli getblockhash 668197) | jq -r '.tx[0]')) | jq -r '.vin[0].coinbase' | cut -c19-109 | xxd -r -p)
 ```
+
+### Cuantas tx han sido reemplazadas un día concreto
+```
+grep "2022-11-18" ~/.bitcoin/debug.log | grep -c "replacing tx"
+```
