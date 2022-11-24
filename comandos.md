@@ -14,6 +14,9 @@ bitcoin-cli getblock $(bitcoin-cli getblockhash 522222) 0 | xxd -r -p | fq -d bi
 ```
 bitcoin-cli getblock $(bitcoin-cli getblockhash 0) 2 | jq .tx[0].hex | xxd -r -p | strings | head -n 1
 ```
+```
+hexdump -C -s 8 -n 285 blk00000.dat
+```
 ### Versión de nodo completo de nuestros peer
 ```
 bitcoin-cli getpeerinfo | grep subver | sort | uniq -c | sort -n
@@ -30,13 +33,15 @@ d=1; for ((i=0; i < $(bitcoin-cli getblockchaininfo | jq .blocks); i += 2016)) d
 ```
 echo $(bitcoin-cli decoderawtransaction $(bitcoin-cli getrawtransaction $(bitcoin-cli getblock $(bitcoin-cli getblockhash 668197) | jq -r '.tx[0]')) | jq -r '.vin[0].coinbase' | cut -c19-109 | xxd -r -p)
 ```
-
 ### Cuantas tx han sido reemplazadas un día concreto
 ```
 grep "2022-11-18" ~/.bitcoin/debug.log | grep -c "replacing tx"
 ```
-
 ### Ver reemplazo de tx en tiempo real
 ```
 tail -f ~/.bitcoin/debug.log| grep -A 1 "replacing tx"
+```
+### Sacar información sobre una dirección concreta
+```
+bitcoin-cli scantxoutset start "[\"addr(bc1qrukma0hcs8n6dqdpveffchq9x8vcv6ft4vp8h2yxpstu4khdnnhq4uha3m)\"]"
 ```
