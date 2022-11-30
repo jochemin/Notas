@@ -1,6 +1,6 @@
 <H1 align="center">Normas de la raya</H1>
 
-<font size="5">El juego consiste en ajorrar hasta 30 chinos, dejando la moneda lo más cerca de la raya, o en la raya (en el dos).
+<font size="16">El juego consiste en ajorrar hasta 30 chinos, dejando la moneda lo más cerca de la raya, o en la raya (en el dos).
 
 Si la dejas más cerca que el contrario serán 3 chinos y si la dejas en la raya (en el dos) serán 3+2.
 
