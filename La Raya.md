@@ -1,4 +1,4 @@
-#Normas de la raya
+# Normas de la raya
 
 El juego consiste en ajorrar hasta 30 chinos, dejando la moneda lo más cerca de la raya, o en la raya (en el dos).
 
@@ -26,4 +26,4 @@ Cuando se llega a 27 chinos está "cerrao". La moneda más cerca de la raya gana
 
 Cuando una pareja llega a 29 chinos, está "al ver", está trucao, y se jugarán 3 chinos. En la raya serán 3+2. (No se puede echar 6)
 
-###BUENA SUERTE COMPAÑERO
+### BUENA SUERTE COMPAÑERO
