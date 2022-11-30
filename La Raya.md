@@ -1,4 +1,6 @@
+<p align="center">
 # Normas de la raya
+</p>
 
 El juego consiste en ajorrar hasta 30 chinos, dejando la moneda lo más cerca de la raya, o en la raya (en el dos).
 
